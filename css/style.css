@@ -1,0 +1,107 @@
+body {
+  padding-top: 50px;
+}
+.em-text{
+  color:  #6e9430 !important;
+}
+section{
+  padding: 40px 0 40px 0;
+}
+.jumbotron{
+background-image: url('../img/bgg.jpeg');
+color: white;
+height: 460px;
+overflow: none;
+}
+
+.jumbotron h1{
+  margin-top: 60px;
+}
+.jumbotron p{
+  margin-bottom: 10px;
+}
+.jumbotron img.app-btn{
+  width: 40%;
+  margin-right: 30px;
+  z-index: 0;
+}
+.jumbotron img.phone-img{
+ width: 75%;
+ height: auto;
+}
+img.demo{
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
+  box-shadow:  3px 5px rgb(79, 80, 77);
+}
+section#feature{
+background: #6e9430 !important;
+padding: 40px;
+overflow: auto;
+color: white;
+}
+section#feature ul li{
+ line-height: 5rem;
+ list-style: none;
+ font-size: 25px;
+  }
+  section .camera-img{
+    width: 100%;
+   margin-top: -40px;
+  }
+  section.title-bar{
+    background: #6e9430 !important;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+  section.title-bar h1{ 
+    margin-bottom: 20px;
+  }
+footer{
+  background: #333;
+  color: #fff;
+  padding: 30px 0 20px 0;
+}
+footer li{
+  list-style: none;
+  float: left;
+  padding: 0 10px 0 10px;
+}
+footer a{
+  color: #fff;
+}
+footer p{
+  float: right;
+}
+/* media-queries*/
+@media(max-width:1200px){
+  .phone-img{
+  margin-bottom: -450px;
+ }
+}
+ @media (min-width:350px) and (max-width:768px){
+.jumbotron{
+  height: 370px;
+}
+}
+@media(max-width:991px){
+ .phone-img{
+  display: none;
+}
+.jumbotron h1{
+  margin-top: 10px;
+   }
+   .middle .col-md-4{
+    margin: 30px 0 30px 0;
+    padding: 10px;
+   }
+  }
+  @media(max-width:620px){
+   footer p{
+  text-align: center;
+  float: center; 
+   }
+}
